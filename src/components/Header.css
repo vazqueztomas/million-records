@@ -1,0 +1,45 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: .5rem 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.header ul li {
+    list-style: none;
+    padding: 0 1rem;
+}
+
+.header ul {
+    display: flex;
+    flex-direction: row;
+}
+.header img {
+    width: 3rem;
+}
+
+.header li a {
+    font-style: none;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+    padding: .5rem;
+}
+
+.header li a:hover{
+    background-color: #63278b;
+    color: white;
+}

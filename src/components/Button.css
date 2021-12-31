@@ -1,0 +1,31 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+.button-plus button {
+    margin: 2rem;
+}
+
+.simple {
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: .8rem 3.2rem .8rem;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;font-family: 'Source Sans Pro', sans-serif;
+}
+
+  
+.simple::after {
+    content: "";
+    background-color: #63278b;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+  }

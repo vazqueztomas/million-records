@@ -1,0 +1,19 @@
+*{
+    text-align: center;}
+
+.sec1-main {
+    display: flex;
+    flex-direction: row;
+}
+
+.sec1-main img {
+    width: 55%;
+}
+.sec1-main .text{
+    width: 100%;
+    text-align: center;
+}
+
+.sec1-main h1{
+    color: #63278b;
+}
