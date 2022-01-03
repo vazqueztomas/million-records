@@ -1,0 +1,27 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+
+#headphones-svg {
+    width: 3.5rem;
+    height: auto;
+    padding: 1rem;
+    border-radius: 50%;
+    transition: .4s ease-out;
+}
+.headphones-svg{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#headphones-svg:hover {
+    stroke: #ffffff;
+    background-color: grey;
+}
+
+.headphones-svg h5{
+    padding: 0;
+    margin: 0 auto;
+}

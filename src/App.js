@@ -2,8 +2,9 @@
 import './App.css';
 import Header from './components/Header';
 import Section1 from './sections/Sec1';
-import Section2 from './sections/Sec2'
+import Section2 from './sections/sec-cards'
 import ButtonPlus from './components/Button';
+import MuestraProductos from './sections/sec-products';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
         <Section1/>
         <ButtonPlus text = 'Ver más'></ButtonPlus>
         <Section2/>
+        <MuestraProductos/>
+
       </header>
     </div>
   );
