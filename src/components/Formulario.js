@@ -22,7 +22,7 @@ const Formulario = (props) => {
   return (
     <div className="formulario" style={divStyle}>
       <h1>{props.title}</h1>
-      <Parrafo text={props.text} />
+      <Parrafo text={props.text} style = {{fontSize: '20px'}}/>
       <input type="text" style={styleInput}></input>
     </div>
   );

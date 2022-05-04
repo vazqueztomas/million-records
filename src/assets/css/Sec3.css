@@ -3,11 +3,14 @@
     padding: 20px;
     height: auto;
     border-radius: 4px;
+    margin: 5px;
+    transition: 1s;
 }
 
 .products img:hover{
-    color: white;
-    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid black;
+   
+   
 }
 
 .container-products {

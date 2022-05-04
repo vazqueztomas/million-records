@@ -1,10 +1,10 @@
 import "../assets/css/Sec3.css";
-import HeadphonesSVG from "../assets/headphones";
 import Parrafo from "../components/Parrafo";
 import ImgJoystick from '../assets/images/icons8-joystick-50.png'
 import ImgAudifonos from '../assets/images/icons8-auriculares-64.png'
 import ImgMicrofono from '../assets/images/icons8-sin-micrófono-50.png'
 import ImgInstrumentos from '../assets/images/icons8-bass-50.png'
+import ImagenProducto from "../assets/headphones";
 export default function MuestraProductos() {
 
   return (
@@ -20,10 +20,10 @@ export default function MuestraProductos() {
       </div>
       <div className="products">
         <a href="https://google.com">
-          <HeadphonesSVG name="Audífonos" src = {ImgAudifonos} alt = 'Audífonos'/>
-          <HeadphonesSVG name="Instrumentos"src = {ImgInstrumentos} alt = 'Instrumentos' />
-          <HeadphonesSVG name="Micrófonos" src = {ImgMicrofono} alt = 'Microfonos'/>
-          <HeadphonesSVG name="Gaming" src = {ImgJoystick} alt = 'Gaming'/>
+          <ImagenProducto name="Audífonos" src = {ImgAudifonos} alt = 'Audífonos'/>
+          <ImagenProducto name="Instrumentos"src = {ImgInstrumentos} alt = 'Instrumentos' />
+          <ImagenProducto name="Micrófonos" src = {ImgMicrofono} alt = 'Microfonos'/>
+          <ImagenProducto name="Gaming" src = {ImgJoystick} alt = 'Gaming'/>
         </a>
       </div>
     </div>

@@ -17,9 +17,9 @@ const Suscribe = () => {
   return (
     <div style={styleDiv}>
       <Formulario
-        title={"DON'T SEE YOUR DATE?"}
+        title={"ESTAS PREPARADO?"}
         text={
-          "SUBSCRIBE AND BE ONE OF THE FIRST TO KNOW WHEN WIZ IS COMING TO YOUR AREA!"
+          "SUSCRIBITE Y ENTERATE DE TODAS NUESTRAS ACTUALIZACIONES"
         }
       />
       <img src={backgroundWiz} alt="Background Wiz Khalifa" style={styleImg} />
