@@ -2,27 +2,26 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useRef } from "react";
-import './Carousel.css'
+import '../assets/css/Carousel.css'
 
 export default function ImageCarousel({ images }) {
   const carousel = useRef();
   const settings = {
     infinite: true,
     dots: true,
-    slidesToShow: 1,
-    arrows: true,
-    slidesToScroll: 1,
+    slidesToShow: 3,
     fade: true,
     autoplay : true,
-    speed : 500,
     autoplaySpeed: 700,
     cssEase: 'linear',
     centerMode : true,
+    centerPadding : '2rem',
     className : 'carrousel',
     useCSS: true,
+    adaptiveHeight: true,
   };
   return (
-    <div>
+    <div className="container-carousel">
       <Slider {...settings} ref={carousel}>
         {images.map((item) => (
           <div key={item.id}>

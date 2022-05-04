@@ -1,5 +1,6 @@
 import React from "react";
-import "./Card.css";
+import "../assets/css/Card.css";
+import Parrafo from "./Parrafo";
 
 const Card = (props) => {
   return (
@@ -7,7 +8,7 @@ const Card = (props) => {
       <div className="container">
         <img src={props.source} alt="Author" />
         <h1 className="title-author">{props.name}</h1>
-        <p className="pg-author">{props.details}</p>
+        <Parrafo text = {props.details} className = 'pg-author'/>
       </div>
     </div>
   );

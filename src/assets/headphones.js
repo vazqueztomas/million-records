@@ -1,9 +1,9 @@
-import "./headphones.css";
+import "./css/headphones.css";
 
 export default function HeadphonesSVG(props) {
   return (
     <div className="headphones-svg">
-      <svg
+      {/* <svg
         id="headphones-svg"
         version="1.0"
         xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,8 @@ export default function HeadphonesSVG(props) {
           190 18 1 88 -17 155 -39z"
           />
         </g>
-      </svg>
+      </svg> */}
+      <img src={props.src} alt={props.alt} />
       <h5>{props.name}</h5>
     </div>
   );

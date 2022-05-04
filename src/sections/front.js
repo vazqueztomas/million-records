@@ -1,4 +1,6 @@
-import './Sec1.css';
+import '../assets/css/Sec1.css';
+import Parrafo from '../components/Parrafo';
+
 
 export default function Section1() {
     return(
@@ -7,8 +9,8 @@ export default function Section1() {
             <div className = 'text'>
 
             <h1>Since 2021.</h1>
-            <p>Lorem</p>
-            <p>Lorem imspum</p>
+            <Parrafo text = {"Creciste rodeado de esto."}/>
+            <Parrafo text = {"Los mejores productos. Empresa líder. La música y vos."}/>
             </div>
         </div>
     )

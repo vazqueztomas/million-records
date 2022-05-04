@@ -12,6 +12,9 @@
 .sec1-main .text{
     width: 100%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .sec1-main h1{

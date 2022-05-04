@@ -1,8 +1,8 @@
 .products img{
     width: 3.5rem;
-    padding: 0 2rem;
+    padding: 20px;
     height: auto;
-    border-radius: 20px;
+    border-radius: 4px;
 }
 
 .products img:hover{
@@ -15,7 +15,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 2rem 5rem;
+    margin: 20px 30px;
 }
 
 .container-products a {

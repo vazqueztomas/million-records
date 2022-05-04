@@ -1,4 +1,4 @@
-import "./Sec2.css";
+import "../assets/css/Sec2.css";
 import Card from "../components/Card";
 
 export default function Sec2() {
