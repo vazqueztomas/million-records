@@ -1,4 +1,3 @@
-import "./assets/css/App.css";
 import Header from "./components/Header";
 import Front from "./sections/front";
 import Section2 from "./sections/sec-cards";
