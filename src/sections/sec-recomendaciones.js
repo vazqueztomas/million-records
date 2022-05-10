@@ -27,7 +27,8 @@ const Fotos = (props) => {
           <img src={logo_yt} alt="Youtube Logo" />
         </a>
       </div>
-      <img src={IMG_URL} alt="" srcset="" />
+      <img src={IMG_URL} alt="" srcset="" id = 'background' />
+      
     </div>
   );
 };
