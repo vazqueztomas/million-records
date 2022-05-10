@@ -4,7 +4,10 @@ import Section2 from "./sections/sec-cards";
 import ButtonPlus from "./components/Button";
 import MuestraProductos from "./sections/sec-products";
 
+
 import Suscribe from "./sections/sec-suscribe";
+import Fotos from "./sections/sec-carrusel";
+
 
 function App() {
   return (
@@ -16,6 +19,7 @@ function App() {
         <Section2 />
         <MuestraProductos />
         <Suscribe></Suscribe>
+        <Fotos/>
       </header>
     </div>
   );

@@ -20,3 +20,13 @@
 .sec1-main h1{
     color: #63278b;
 }
+
+@media only screen and (max-width:500px){
+    .sec1-main {
+        display: flex;
+        flex-direction: column;
+    }
+    .sec1-main img {
+        width: 100%;
+    }
+}

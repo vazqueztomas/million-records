@@ -7,10 +7,6 @@
     transition: 1s;
 }
 
-.products img:hover {
-    border: 1px solid black;
-}
-
 .container-products {
     display: flex;
     flex-direction: row;

@@ -19,12 +19,10 @@ export default function MuestraProductos() {
         />
       </div>
       <div className="products">
-        <a href="https://google.com">
           <ImagenProducto name="Audífonos" src = {ImgAudifonos} alt = 'Audífonos'/>
           <ImagenProducto name="Instrumentos"src = {ImgInstrumentos} alt = 'Instrumentos' />
           <ImagenProducto name="Micrófonos" src = {ImgMicrofono} alt = 'Microfonos'/>
           <ImagenProducto name="Gaming" src = {ImgJoystick} alt = 'Gaming'/>
-        </a>
       </div>
     </div>
   );

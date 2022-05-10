@@ -2,11 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 
 
-#headphones-svg {
-    width: 3.5rem;
-    height: auto;
-    padding: 1rem;
-}
 .headphones-svg{
     display: inline-flex;
     justify-content: center;

@@ -1,17 +1,29 @@
 .border {
     border: 1px solid black;
-    margin: 2rem;
+    margin: 32px;
 
 }
-.container{
+/* .container{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-}
+} */
 
 .border .container img {
-    width: 100%;
+    width: auto;
     max-height: 19rem;
     max-width: 29rem;
+}
+
+@media only screen and (max-width:500px) {
+    .border .container img {
+        width: auto;
+        height: auto;
+    }
+    .border {
+        border: 1px solid black;
+        margin: 10px;
+    
+    }
 }
