@@ -1,22 +1,12 @@
 import backgroundWiz from "../assets/images/background-wizka.png";
 
 import Formulario from "../components/Formulario";
+import "../assets/css/sec-suscribe.css"
 
 
-const styleDiv = {
-  display: "flex",
-  flexDirection: "row",
-  justifyContent: "space-between",
-  marginBottom: "50px",
-};
-
-const styleImg = {
-  width: "400px",
-  height: 'auto',
-};
 const Suscribe = () => {
   return (
-    <div style={styleDiv}>
+    <div className="container">
       <Formulario
         title={"ESTAS PREPARADO?"}
         text={
@@ -24,7 +14,7 @@ const Suscribe = () => {
         }
       />
       
-      <img src={backgroundWiz} alt="Background Wiz Khalifa" style={styleImg} />
+      <img src = {backgroundWiz} alt="Background Wiz Khalifa" />
       
     </div>
   );

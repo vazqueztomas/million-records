@@ -6,7 +6,7 @@ import MuestraProductos from "./sections/sec-products";
 
 
 import Suscribe from "./sections/sec-suscribe";
-import Fotos from "./sections/sec-carrusel";
+import Fotos from "./sections/sec-recomendaciones";
 
 
 function App() {

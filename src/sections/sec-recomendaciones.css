@@ -1,0 +1,21 @@
+.recomendacionesDiv {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recomendacionesDiv img{
+    max-width: 720px;
+}
+.redes-sociales img{
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    padding: 20px;
+}

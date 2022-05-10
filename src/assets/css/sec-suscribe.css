@@ -1,0 +1,22 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.container img {
+    width: 400px;
+    height: auto;
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        flex-direction: column;
+    }
+    .container img {
+        width: auto;
+        max-height: 650px;
+    }
+}

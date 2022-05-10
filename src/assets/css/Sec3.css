@@ -15,7 +15,15 @@
     margin: 20px 30px;
 }
 
-.container-products a {
-    text-decoration: none;
-    color: black;
+
+@media only screen and (max-width: 500px) {
+    
+.container-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 30px;
+}
+
+
 }
